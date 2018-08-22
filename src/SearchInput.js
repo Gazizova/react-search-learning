@@ -9,8 +9,9 @@ class SearchInput extends PureComponent {
     render() {
         return (
             <div className="component-search-input">
-                    <label htmlFor="search">Find user</label>
-                    <input onChange={this.handleChange} id="search" name="searchfield" />
+                <label htmlFor="search">Find user</label>
+                <input onChange={this.handleChange} id="search" name="searchfield" />
+
             </div>
         );
     }

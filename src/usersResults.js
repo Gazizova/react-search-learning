@@ -16,8 +16,8 @@ class UsersResults extends PureComponent {
                         age={i.age}
                         image={i.image}
                         name={i.name}
-                     />
-            ))}
+                    />
+                ))}
             </div>
         );
     }
